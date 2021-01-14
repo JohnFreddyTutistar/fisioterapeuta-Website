@@ -388,6 +388,9 @@ h3{
     header{
         background-position: center;
     }
+    .text-header{
+        text-align: center;
+    }
     .container-about-of{
         flex-direction: column;
         justify-content: center;
