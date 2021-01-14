@@ -433,6 +433,24 @@ h3{
     .services-ind img{
         width: 90%;
     }
+    /*skills*/
+    .flex-direction-nav a{
+        display: block;
+        text-decoration: none;
+        position: absolute;
+        top: 50%;
+        z-index: 999;
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+        opacity: none;
+    }
+    .flex-direction-nav .flex-prev{
+        font-size: 15px;
+    }
+    .flex-direction-nav .flex-next{
+        font-size: 15px;
+    }
 }
 
 html{
