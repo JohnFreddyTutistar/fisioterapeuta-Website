@@ -95,20 +95,20 @@ header > .text-header{
     margin-top: 0;
 }
 .img-box{
-    width: 35%;
+    width: 45%;
     overflow: hidden;
     box-shadow: 3px 5px 25px rgb(0, 0, 0, .548);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .img-box .imagen-about{
-    transition: 1s;
+    transition: 2s;
 }
 .imagen-about:hover{
     transform: scale(1.2);
 }
 
 .container-about .text-container{
-    width: 48%;
+    width: 50%;
 }
 .text-container .title{
     margin-bottom: 35px;
