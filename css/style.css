@@ -87,7 +87,7 @@ header > .text-header{
     justify-content: space-evenly;
 }
 
-.container-about-of img{
+img{
     width: 100%;
     height: 100%;
     float: left;
@@ -95,13 +95,13 @@ header > .text-header{
     margin-top: 0;
 }
 .img-box{
-    width: 45%;
+    width: 35%;
     overflow: hidden;
     box-shadow: 3px 5px 25px rgb(0, 0, 0, .548);
     border-radius: 10px;
 }
 .img-box .imagen-about{
-    transition: 2s;
+    transition: 1s;
 }
 .imagen-about:hover{
     transform: scale(1.2);
@@ -117,7 +117,7 @@ header > .text-header{
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
-    font-size: 25px;
+    font-size: 27px;
     font-family: 'Gruppo', cursive;
 }
 
@@ -451,6 +451,18 @@ h3{
     .flex-direction-nav .flex-next{
         font-size: 15px;
     }
+}
+
+/*footer*/
+footer{
+    background: #27292a;
+    padding: 20px 23px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+footer span a{
+    color: #5DADE2;
 }
 
 html{
